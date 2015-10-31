@@ -18,7 +18,7 @@ Streams1 streams are automatically upgraded to be streams3 streams.
 Listening for 'error' will recieve errors from all streams inside the pipe.
 
 ```js
-var Combine = require('stream-combiner')
+var Combine = require('stream-combiner2')
 var es      = require('event-stream')
 
 Combine(                                  // connect streams together with `pipe`
